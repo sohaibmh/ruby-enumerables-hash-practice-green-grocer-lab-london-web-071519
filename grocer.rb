@@ -17,10 +17,6 @@ end
 
 
 
-
-
-
-
  def apply_coupons(cart, coupon)
    coupon.each do |item|
      name_of_item = item[:item]
@@ -37,12 +33,8 @@ end
    end
    cart
  end
-# apply_coupons(consolidate_cart(sample), coupon)
-
-
 
 def apply_clearance(cart)
-
 
   cart.each do |item, details|
     if cart[item][:clearance] == true
