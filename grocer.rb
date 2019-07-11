@@ -17,7 +17,7 @@ end	end
 
 
 
- def apply_coupons(cart:[], coupons:[])	def apply_coupons(cart:[], coupons:[])
+ def apply_coupons(cart:[], coupons:[])
   # code here	  result = {}
   # code here#
   cart.each do |food, info|
