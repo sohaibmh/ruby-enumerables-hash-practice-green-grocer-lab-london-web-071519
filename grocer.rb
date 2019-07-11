@@ -16,18 +16,18 @@ final
 end
 
 
-# def apply_coupons(cart, coupons)
-#   final = Hash.new 0
-# coupons.each do |key, value|
-#   puts key
-#   cart.each do |food, description|
+def apply_coupons(cart, coupons)
+  final = Hash.new 0
+    coupons.each do |key, value|
+    puts key
+    cart.each do |food, description|
 
-# end
-# end
+    end
+    end
 
-# end
+    end
 
-# apply_coupons(consolidate_cart(sample), coupon)
+
 
 
 # def apply_coupons(cart, coupon)
