@@ -15,11 +15,6 @@ end
 final
 end
 
-consolidate_cart(sample)
-
-
-
-coupon = {:item => "AVOCADO", :num => 2, :cost => 5.0}
 
 # def apply_coupons(cart, coupons)
 #   final = Hash.new 0
