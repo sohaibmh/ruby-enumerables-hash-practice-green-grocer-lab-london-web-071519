@@ -61,7 +61,6 @@ def apply_clearance(cart)
   cart
 end
 
-apply_clearance(cart)
 
 def apply_clearance(cart)
   # code here
